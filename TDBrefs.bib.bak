@@ -20582,7 +20582,7 @@ Trauma Severity Indices},
 
 @Manual{Rgeepack,
   Title                    = {geepack: Generalized Estimating Equation Package},
-  Author                   = {S{\o}ren H{\o}jsgaard and and Ulrich Halekoh and Jun Yan},
+  Author                   = {S{\o}ren H{\o}jsgaard and Ulrich Halekoh and Jun Yan},
   Note                     = {R package version 1.2-0},
   Year                     = {2014},
 

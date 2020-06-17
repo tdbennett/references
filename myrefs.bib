@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Tell Bennett at 2020-04-17 14:24:24 -0600 
+%% Created for Tell Bennett at 2020-06-17 16:33:12 -0600 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,6 +10,68 @@
 @comment{jabref-meta: databaseType:bibtex;}
 
 
+
+@article{Dziorny2020,
+	Abstract = {OBJECTIVES: To 1) probabilistically link two important pediatric data sources, Virtual Pediatric Systems and PEDSnet, 2) evaluate linkage accuracy overall and in patients with severe sepsis or septic shock, and 3) identify variables important to linkage accuracy.
+DESIGN: Retrospective linkage of prospectively collected datasets from Virtual Pediatrics Systems, Inc (Los Angeles, CA) and the PEDSnet consortium.
+SETTING: Single-center academic PICU.
+PATIENTS: All PICU encounters between January 1, 2012, and December 31, 2017, that were deterministically matched between the two datasets.
+INTERVENTIONS: None.
+MEASUREMENTS AND MAIN RESULTS: We abstracted records from Virtual Pediatric Systems and PEDSnet corresponding to PICU encounters and probabilistically linked using 44 features shared by the two datasets. We generated a gold standard deterministic linkage using protected health information elements, which were then removed from datasets. We then calculated candidate pair log-likelihood ratios for all pairs of subjects and selected optimal pairs in a two-stage algorithm. A total of 22,051 gold standard PICU encounter pairs were identified over the study period. The optimal linkage model demonstrated excellent discrimination (area under the receiver operating characteristic curve > 0.99); 19,801 cases (89.9%) were matched with 13 false positives. The addition of two protected health information dates (admission month, birth day-of-year) increased to 20,189 (91.6%) the cases matched, with three false positives. Restricting to patients with Virtual Pediatric Systems diagnosis of severe sepsis or septic shock (n = 1,340 [6.1%]) matched 1,250 cases (93.2%) with zero false positives. Increased number of laboratory values present in the first 12 hours of admission significantly increased log-likelihood ratios, suggesting stronger candidate pair matching.
+CONCLUSIONS: We demonstrated the use of probabilistic linkage to accurately join two complementary pediatric critical care datasets at a single academic PICU in the absence of protected health information. Combining datasets with curated diagnoses and granular measurements can validate patient acuity metrics and facilitate multicenter machine learning algorithms. We anticipate these methods will generalize to other common PICU diagnoses.},
+	Author = {Dziorny, Adam C and Lindell, Robert B and Bennett, Tellen D and Bailey, L Charles},
+	Date-Added = {2020-06-17 16:32:45 -0600},
+	Date-Modified = {2020-06-17 16:33:10 -0600},
+	Doi = {10.1097/PCC.0000000000002380},
+	Journal = {Pediatr Crit Care Med},
+	Journal-Full = {Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies},
+	Month = {Jun},
+	Pmid = {32511201},
+	Pst = {aheadofprint},
+	Title = {Joining Datasets Without Identifiers: Probabilistic Linkage of Virtual Pediatric Systems and PEDSnet},
+	Year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1097/PCC.0000000000002380}}
+
+@article{Xing2019,
+	Abstract = {OBJECTIVE: Nucleus recognition is a critical yet challenging step in histopathology image analysis, for example, in Ki67 immunohistochemistry stained images. Although many automated methods have been proposed, most use a multi-stage processing pipeline to categorize nuclei, leading to cumbersome, low-throughput, and error-prone assessments. To address this issue, we propose a novel deep fully convolutional network for single-stage nucleus recognition.
+METHODS: Instead of conducting direct pixel-wise classification, we formulate nucleus identification as a deep structured regression model. For each input image, it produces multiple proximity maps, each of which corresponds to one nucleus category and exhibits strong responses in central regions of the nuclei. In addition, by taking into consideration the nucleus distribution in histopathology images, we further introduce an auxiliary task, region of interest (ROI) extraction, to assist and boost the nucleus quantification with weak ROI annotation. The proposed network can be learned in an end-to-end, pixel-to-pixel manner for simultaneous nucleus detection and classification.
+RESULTS: We have evaluated this network on a pancreatic neuroendocrine tumor Ki67 image dataset, and the experiments demonstrate that our method outperforms recent state-of-the-art approaches.
+CONCLUSION: We present a new, pixel-to-pixel deep neural network with two sibling branches for effective nucleus recognition and observe that learning with another relevant task, ROI extraction, can further boost individual nucleus localization and classification.
+SIGNIFICANCE: Our method provides a clean, single-stage nucleus recognition pipeline for histopathology image analysis, especially a new perspective for Ki67 image quantification, which would potentially benefit individual object quantification in whole-slide images.},
+	Author = {Xing, Fuyong and Cornish, Toby C and Bennett, Tell and Ghosh, Debashis and Yang, Lin},
+	Date-Added = {2020-06-17 16:30:24 -0600},
+	Date-Modified = {2020-06-17 16:32:11 -0600},
+	Doi = {10.1109/TBME.2019.2900378},
+	Journal = {IEEE Trans Biomed Eng},
+	Journal-Full = {IEEE transactions on bio-medical engineering},
+	Mesh = {Algorithms; Cell Nucleus; Databases, Factual; Humans; Image Interpretation, Computer-Assisted; Immunohistochemistry; Ki-67 Antigen; Microscopy; Neural Networks, Computer; Neuroendocrine Tumors; Pancreatic Neoplasms; Supervised Machine Learning},
+	Month = {11},
+	Number = {11},
+	Pages = {3088-3097},
+	Pmid = {30802845},
+	Pst = {ppublish},
+	Title = {Pixel-to-Pixel Learning With Weak Supervision for Single-Stage Nucleus Recognition in Ki67 Images},
+	Volume = {66},
+	Year = {2019},
+	Bdsk-Url-1 = {https://doi.org/10.1109/TBME.2019.2900378}}
+
+@article{Xing2019_miccai,
+	Abstract = {Cell or nucleus quantification has recently achieved state-of-the-art performance by using convolutional neural networks (CNNs). In general, training CNNs requires a large amount of annotated microscopy image data, which is prohibitively expensive or even impossible to obtain in some applications. Additionally, when applying a deep supervised model to new datasets, it is common to annotate individual cells in those target datasets for model re-training or fine-tuning, leading to low-throughput image analysis. In this paperSSS, we propose a novel adversarial domain adaptation method for cell/nucleus quantification across multimodality microscopy image data. Specifically, we learn a fully convolutional network detector with task-specific cycle-consistent adversarial learning, which conducts pixel-level adaptation between source and target domains and completes a cell/nucleus detection task. Then we generate pseudo-labels on target training data using the detector trained with adapted source images and further fine-tune the detector towards the target domain to boost the performance. We evaluate the proposed method on multiple cross-modality microscopy image datasets and obtain a significant improvement in cell/nucleus detection compared to the reference baselines and a recent state-of-the-art deep domain adaptation approach. In addition, our method is very competitive with the fully supervised models trained with all real target training labels.},
+	Author = {Xing, Fuyong and Bennett, Tell and Ghosh, Debashis},
+	Date-Added = {2020-06-17 16:30:22 -0600},
+	Date-Modified = {2020-06-17 16:31:38 -0600},
+	Doi = {10.1007/978-3-030-32239-7_82},
+	Journal = {Med Image Comput Comput Assist Interv},
+	Journal-Full = {Medical image computing and computer-assisted intervention : MICCAI ... International Conference on Medical Image Computing and Computer-Assisted Intervention},
+	Month = {Oct},
+	Pages = {740-749},
+	Pmc = {PMC6903918},
+	Pmid = {31825019},
+	Pst = {ppublish},
+	Title = {Adversarial Domain Adaptation and Pseudo-Labeling for Cross-Modality Microscopy Image Quantification},
+	Volume = {11764},
+	Year = {2019},
+	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-030-32239-7_82}}
 
 @article{Ward2020,
 	Author = {Ward, Shan L and Flori, Heidi R and Bennett, Tellen D and Sapru, Anil and Mourani, Peter M and Thomas, Neal J and Khemani, Robinder G},
@@ -30,14 +92,6 @@
 	Title = {Predicting Serious Bacterial Infection at PICU Admission},
 	Volume = {48},
 	Year = {2020}}
-
-@article{Dziorny2020,
-	Author = {Dziorny, Adam C. and Lindell, Robert B. and Bennett, Tellen D. and Bailey, L. Charles},
-	Date-Added = {2020-02-11 12:36:14 -0700},
-	Date-Modified = {2020-02-11 12:38:02 -0700},
-	Journal = {Pediatr Crit Care Med},
-	Title = {Joining Datasets without Identifiers: Probabilistic Linkage of Virtual Pediatric Systems and PEDSnet},
-	Year = {in press}}
 
 @article{Typpo2019,
 	Abstract = {OBJECTIVES: We sought to describe current outcomes of Multiple Organ Dysfunction Syndrome present on day 1 of PICU admission.
@@ -162,14 +216,6 @@ CONCLUSIONS: Children with severe traumatic brain injury near perceived transiti
 	Volume = {2019},
 	Year = {2019}}
 
-@inproceedings{Xing2019_miccai,
-	Author = {Xing, Fuyong and and Toby C. Cornish and Tellen D. Bennett and Debashis Ghosh},
-	Booktitle = {Proceedings of the 22nd International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-	Date-Added = {2019-08-11 13:36:08 -0600},
-	Date-Modified = {2019-08-11 22:05:45 -0600},
-	Title = {Adversarial Domain Adaptation and Pseudo-Labeling for Cross-Modality Microscopy Image Quantification},
-	Year = {in press}}
-
 @article{BennettDSforCH,
 	Author = {Bennett, Tellen D and Callahan, Tiffany J and Feinstein, James A and Ghosh, Debashis and Lakhani, Saquib A and Spaeder, Michael C and Szefler, Stanley J and Kahn, Michael G},
 	Date-Added = {2019-04-30 17:25:38 -0600},
@@ -187,15 +233,6 @@ CONCLUSIONS: Children with severe traumatic brain injury near perceived transiti
 	Volume = {208},
 	Year = {2019},
 	Bdsk-Url-1 = {https://doi.org/10.1016/j.jpeds.2018.12.041}}
-
-@article{Xing2019,
-	Author = {Fuyong Xing and Toby C. Cornish and Tell Bennett and Debashis Ghosh and Lin Yang},
-	Date-Added = {2019-02-23 06:00:31 -0700},
-	Date-Modified = {2019-04-08 09:40:49 -0600},
-	Journal = {IEEE Trans Biomed Eng},
-	Pmid = {30802845},
-	Title = {Pixel-to-pixel Learning with Weak Supervision for Single-stage Nucleus Recognition in Ki67 Images},
-	Year = {2019. Epub ahead of print}}
 
 @article{Russell2019,
 	Author = {Russell, Seth and Bennett, Tellen D and Ghosh, Debashis},

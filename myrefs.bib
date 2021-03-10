@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Created for Tell Bennett at 2021-03-10 03:47:35 -0700 
+%% Created for Tell Bennett at 2021-03-10 04:01:06 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,6 +10,87 @@
 @comment{jabref-meta: databaseType:bibtex;}
 
 
+
+@article{Zhang2020,
+	abstract = {PURPOSE: We focus on the problem of scarcity of annotated training data for nucleus recognition in Ki-67 immunohistochemistry (IHC)-stained pancreatic neuroendocrine tumor (NET) images. We hypothesize that deep learning-based domain adaptation is helpful for nucleus recognition when image annotations are unavailable in target data sets.
+METHODS: We considered 2 different institutional pancreatic NET data sets: one (ie, source) containing 38 cases with 114 annotated images and the other (ie, target) containing 72 cases with 20 annotated images. The gold standards were manually annotated by 1 pathologist. We developed a novel deep learning-based domain adaptation framework to count different types of nuclei (ie, immunopositive tumor, immunonegative tumor, nontumor nuclei). We compared the proposed method with several recent fully supervised deep learning models, such as fully convolutional network-8s (FCN-8s), U-Net, fully convolutional regression network (FCRN) A, FCRNB, and fully residual convolutional network (FRCN). We also evaluated the proposed method by learning with a mixture of converted source images and real target annotations.
+RESULTS: Our method achieved an F1 score of 81.3% and 62.3% for nucleus detection and classification in the target data set, respectively. Our method outperformed FCN-8s (53.6% and 43.6% for nucleus detection and classification, respectively), U-Net (61.1% and 47.6%), FCRNA (63.4% and 55.8%), and FCRNB (68.2% and 60.6%) in terms of F1 score and was competitive with FRCN (81.7% and 70.7%). In addition, learning with a mixture of converted source images and only a small set of real target labels could further boost the performance.
+CONCLUSION: This study demonstrates that deep learning-based domain adaptation is helpful for nucleus recognition in Ki-67 IHC stained images when target data annotations are not available. It would improve the applicability of deep learning models designed for downstream supervised learning tasks on different data sets.},
+	author = {Zhang, Xuhong and Cornish, Toby C and Yang, Lin and Bennett, Tellen D and Ghosh, Debashis and Xing, Fuyong},
+	date-added = {2021-03-10 04:00:36 -0700},
+	date-modified = {2021-03-10 04:01:04 -0700},
+	doi = {10.1200/CCI.19.00108},
+	journal = {JCO Clin Cancer Inform},
+	journal-full = {JCO clinical cancer informatics},
+	month = {07},
+	pages = {666-679},
+	pmc = {PMC7397778},
+	pmid = {32730116},
+	pst = {ppublish},
+	title = {Generative Adversarial Domain Adaptation for Nucleus Quantification in Images of Tissue Immunohistochemically Stained for Ki-67},
+	volume = {4},
+	year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1200/CCI.19.00108}}
+
+@article{Ward2020,
+	abstract = {OBJECTIVES: Common data elements are a combination of a precisely defined question paired with a specified set of responses. Common data elements contribute to the National Institutes of Health-supported principle of Findable, Accessible, Interoperable, and Reusableness of research data. Routine use of Common data elements and standardized definitions within pediatric critical care research are likely to promote collaboration, improve quality, and consistency of data collection, improve overall efficiency of study or trial setup, and facilitate cross-study comparisons, meta-analysis, and merging of study cohorts. The purpose of this Pediatric Critical Care Medicine Perspective is to establish a road map for the development of multinational, multidisciplinary consensus-based common data elements that could be adapted for use within any pediatric critical care subject area.
+METHODS: We describe a multistep process for the creation of "core domains" of research (e.g. patient outcomes, health-related conditions, or aspects of health) and the development of common data elements within each core domain. We define a tiered approach to data collection based on relevance of each common data element to future studies and clinical practice within the field of interest. Additionally, we describe the use of the Delphi methods to achieve consensus of these common data element documents using an international, multidisciplinary panel of experts.},
+	author = {Ward, Shan L and Flori, Heidi R and Bennett, Tellen D and Sapru, Anil and Mourani, Peter M and Thomas, Neal J and Khemani, Robinder G},
+	date-added = {2021-03-10 03:58:16 -0700},
+	date-modified = {2021-03-10 03:58:45 -0700},
+	doi = {10.1097/PCC.0000000000002455},
+	journal = {Pediatr Crit Care Med},
+	journal-full = {Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies},
+	mesh = {Child; Common Data Elements; Consensus; Critical Care; Data Collection; Delphi Technique; Humans; Medicine},
+	month = {11},
+	number = {11},
+	pages = {e1038-e1041},
+	pmc = {PMC7609513},
+	pmid = {32639472},
+	pst = {ppublish},
+	title = {Design and Rationale for Common Data Elements for Clinical Research in Pediatric Critical Care Medicine},
+	volume = {21},
+	year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1097/PCC.0000000000002455}}
+
+@article{Sottile2021,
+	abstract = {Background: The SARS-CoV-2 virus has infected millions of people, overwhelming critical care resources in some regions. Many plans for rationing critical care resources during crises are based on the Sequential Organ Failure Assessment (SOFA) score. The COVID-19 pandemic created an emergent need to develop and validate a novel electronic health record (EHR)-computable tool to predict mortality.
+Research Questions: To rapidly develop, validate, and implement a novel real-time mortality score for the COVID-19 pandemic that improves upon SOFA.
+Study Design and Methods: We conducted a prospective cohort study of a regional health system with 12 hospitals in Colorado between March 2020 and July 2020. All patients >14 years old hospitalized during the study period without a do not resuscitate order were included. Patients were stratified by the diagnosis of COVID-19. From this cohort, we developed and validated a model using stacked generalization to predict mortality using data widely available in the EHR by combining five previously validated scores and additional novel variables reported to be associated with COVID-19-specific mortality. We compared the area under the receiver operator curve (AUROC) for the new model to the SOFA score and the Charlson Comorbidity Index.
+Results: We prospectively analyzed 27,296 encounters, of which 1,358 (5.0%) were positive for SARS-CoV-2, 4,494 (16.5%) included intensive care unit (ICU)-level care, 1,480 (5.4%) included invasive mechanical ventilation, and 717 (2.6%) ended in death. The Charlson Comorbidity Index and SOFA scores predicted overall mortality with an AUROC of 0.72 and 0.90, respectively. Our novel score predicted overall mortality with AUROC 0.94. In the subset of patients with COVID-19, we predicted mortality with AUROC 0.90, whereas SOFA had AUROC of 0.85.
+Interpretation: We developed and validated an accurate, in-hospital mortality prediction score in a live EHR for automatic and continuous calculation using a novel model, that improved upon SOFA.
+Take Home Points: Study Question: Can we improve upon the SOFA score for real-time mortality prediction during the COVID-19 pandemic by leveraging electronic health record (EHR) data?Results: We rapidly developed and implemented a novel yet SOFA-anchored mortality model across 12 hospitals and conducted a prospective cohort study of 27,296 adult hospitalizations, 1,358 (5.0%) of which were positive for SARS-CoV-2. The Charlson Comorbidity Index and SOFA scores predicted all-cause mortality with AUROCs of 0.72 and 0.90, respectively. Our novel score predicted mortality with AUROC 0.94.Interpretation: A novel EHR-based mortality score can be rapidly implemented to better predict patient outcomes during an evolving pandemic.},
+	author = {Sottile, Peter D and Albers, David and DeWitt, Peter E and Russell, Seth and Stroh, J N and Kao, David P and Adrian, Bonnie and Levine, Matthew E and Mooney, Ryan and Larchick, Lenny and Kutner, Jean S and Wynia, Matthew K and Glasheen, Jeffrey J and Bennett, Tellen D},
+	date-added = {2021-03-10 03:52:47 -0700},
+	date-modified = {2021-03-10 03:53:31 -0700},
+	doi = {10.1101/2021.01.14.21249793},
+	journal = {medRxiv},
+	journal-full = {medRxiv : the preprint server for health sciences},
+	month = {Jan},
+	pmc = {PMC7814847},
+	pmid = {33469601},
+	pst = {epublish},
+	title = {Real-Time Electronic Health Record Mortality Prediction During the COVID-19 Pandemic: A Prospective Cohort Study},
+	year = {2021},
+	Bdsk-Url-1 = {https://doi.org/10.1101/2021.01.14.21249793}}
+
+@article{Bennett2021_n3c_cohort,
+	abstract = {Background: The majority of U.S. reports of COVID-19 clinical characteristics, disease course, and treatments are from single health systems or focused on one domain. Here we report the creation of the National COVID Cohort Collaborative (N3C), a centralized, harmonized, high-granularity electronic health record repository that is the largest, most representative U.S. cohort of COVID-19 cases and controls to date. This multi-center dataset supports robust evidence-based development of predictive and diagnostic tools and informs critical care and policy.
+Methods and Findings: In a retrospective cohort study of 1,926,526 patients from 34 medical centers nationwide, we stratified patients using a World Health Organization COVID-19 severity scale and demographics; we then evaluated differences between groups over time using multivariable logistic regression. We established vital signs and laboratory values among COVID-19 patients with different severities, providing the foundation for predictive analytics. The cohort included 174,568 adults with severe acute respiratory syndrome associated with SARS-CoV-2 (PCR >99% or antigen <1%) as well as 1,133,848 adult patients that served as lab-negative controls. Among 32,472 hospitalized patients, mortality was 11.6% overall and decreased from 16.4% in March/April 2020 to 8.6% in September/October 2020 (p = 0.002 monthly trend). In a multivariable logistic regression model, age, male sex, liver disease, dementia, African-American and Asian race, and obesity were independently associated with higher clinical severity. To demonstrate the utility of the N3C cohort for analytics, we used machine learning (ML) to predict clinical severity and risk factors over time. Using 64 inputs available on the first hospital day, we predicted a severe clinical course (death, discharge to hospice, invasive ventilation, or extracorporeal membrane oxygenation) using random forest and XGBoost models (AUROC 0.86 and 0.87 respectively) that were stable over time. The most powerful predictors in these models are patient age and widely available vital sign and laboratory values. The established expected trajectories for many vital signs and laboratory values among patients with different clinical severities validates observations from smaller studies, and provides comprehensive insight into COVID-19 characterization in U.S. patients.
+Conclusions: This is the first description of an ongoing longitudinal observational study of patients seen in diverse clinical settings and geographical regions and is the largest COVID-19 cohort in the United States. Such data are the foundation for ML models that can be the basis for generalizable clinical decision support tools. The N3C Data Enclave is unique in providing transparent, reproducible, easily shared, versioned, and fully auditable data and analytic provenance for national-scale patient-level EHR data. The N3C is built for intensive ML analyses by academic, industry, and citizen scientists internationally. Many observational correlations can inform trial designs and care guidelines for this new disease.},
+	author = {Bennett, Tellen D and Moffitt, Richard A and Hajagos, Janos G and Amor, Benjamin and Anand, Adit and Bissell, Mark M and Bradwell, Katie Rebecca and Bremer, Carolyn and Byrd, James Brian and Denham, Alina and DeWitt, Peter E and Gabriel, Davera and Garibaldi, Brian T and Girvin, Andrew T and Guinney, Justin and Hill, Elaine L and Hong, Stephanie S and Jimenez, Hunter and Kavuluru, Ramakanth and Kostka, Kristin and Lehmann, Harold P and Levitt, Eli and Mallipattu, Sandeep K and Manna, Amin and McMurry, Julie A and Morris, Michele and Muschelli, John and Neumann, Andrew J and Palchuk, Matvey B and Pfaff, Emily R and Qian, Jingjing and Qureshi, Nabeel and Russell, Seth and Spratt, Heidi and Walden, Anita and Williams, Andrew E and Wooldridge, Jacob T and Yoo, Yun Jae and Zhang, Xiaohan Tanner and Zhu, Richard L and Austin, Christopher P and Saltz, Joel H and Gersing, Ken R and Haendel, Melissa A and Chute, Christopher G},
+	date-added = {2021-03-10 03:52:01 -0700},
+	date-modified = {2021-03-10 03:52:24 -0700},
+	doi = {10.1101/2021.01.12.21249511},
+	journal = {medRxiv},
+	journal-full = {medRxiv : the preprint server for health sciences},
+	month = {Jan},
+	pmc = {PMC7814838},
+	pmid = {33469592},
+	pst = {epublish},
+	title = {The National COVID Cohort Collaborative: Clinical Characterization and Early Severity Prediction},
+	year = {2021},
+	Bdsk-Url-1 = {https://doi.org/10.1101/2021.01.12.21249511}}
 
 @article{Haendel2021,
 	abstract = {OBJECTIVE: Coronavirus disease 2019 (COVID-19) poses societal challenges that require expeditious data and knowledge sharing. Though organizational clinical data are abundant, these are largely inaccessible to outside researchers. Statistical, machine learning, and causal analyses are most successful with large-scale data beyond what is available in any given organization. Here, we introduce the National COVID Cohort Collaborative (N3C), an open science community focused on analyzing patient-level data from many centers.
@@ -169,14 +250,6 @@ LEVEL OF EVIDENCE: Prognostic/Epidemiologic, level III.},
 	title = {The National COVID Cohort Collaborative (N3C): Rationale, Design, Infrastructure, and Deployment},
 	year = {2020}}
 
-@article{Zhang2020,
-	author = {Zhang, Xuhong and Cornish, Toby C and Yang, Lin and Bennett, Tellen D. and Ghosh, Debashis and Xing, Fuyong},
-	date-added = {2020-06-18 10:22:42 -0600},
-	date-modified = {2020-06-18 10:34:51 -0600},
-	journal = {JCO Clinical Cancer Informatics},
-	title = {Generative Adversarial Domain Adaptation for Nucleus Quantification in Images of Tissue Immunohistochemically-Stained for Ki67},
-	year = {in press}}
-
 @article{Dziorny2020,
 	abstract = {OBJECTIVES: To 1) probabilistically link two important pediatric data sources, Virtual Pediatric Systems and PEDSnet, 2) evaluate linkage accuracy overall and in patients with severe sepsis or septic shock, and 3) identify variables important to linkage accuracy.
 DESIGN: Retrospective linkage of prospectively collected datasets from Virtual Pediatrics Systems, Inc (Los Angeles, CA) and the PEDSnet consortium.
@@ -238,14 +311,6 @@ SIGNIFICANCE: Our method provides a clean, single-stage nucleus recognition pipe
 	volume = {11764},
 	year = {2019},
 	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-030-32239-7_82}}
-
-@article{Ward2020,
-	author = {Ward, Shan L and Flori, Heidi R and Bennett, Tellen D and Sapru, Anil and Mourani, Peter M and Thomas, Neal J and Khemani, Robinder G},
-	date-added = {2020-04-17 14:18:50 -0600},
-	date-modified = {2020-04-17 14:24:22 -0600},
-	journal = {Pediatr Crit Care Med},
-	title = {Design and Rationale for Common Data Elements for Clinical Research in Pediatric Critical Care Medicine: A Consensus},
-	year = {in press}}
 
 @article{Martin2020,
 	author = {Martin, Blake and Bennett, Tellen D.},

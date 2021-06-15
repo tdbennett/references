@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Tell Bennett at 2021-05-12 05:36:00 -0600 
+%% Created for Tell Bennett at 2021-06-15 05:52:11 -0600 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,6 +10,27 @@
 @comment{jabref-meta: databaseType:bibtex;}
 
 
+
+@article{Sottile2021,
+	abstract = {OBJECTIVE: To rapidly develop, validate, and implement a novel real-time mortality score for the COVID-19 pandemic that improves upon SOFA for decision support for a Crisis Standards of Care team.
+MATERIALS AND METHODS: We developed, verified, and deployed a stacked generalization model to predict mortality using data available in the EHR by combining five previously validated scores and additional novel variables reported to be associated with COVID-19-specific mortality. We verified the model with prospectively collected data from 12 hospitals in Colorado between March 2020 and July 2020. We compared the area under the receiver operator curve (AUROC) for the new model to the SOFA score and the Charlson Comorbidity Index.
+RESULTS: The prospective cohort included 27,296 encounters, of which 1,358 (5.0%) were positive for SARS-CoV-2, 4,494 (16.5%) required intensive care unit care, 1,480 (5.4%) required mechanical ventilation, and 717 (2.6%) ended in death. The Charlson Comorbidity Index and SOFA scores predicted mortality with an AUROC of 0.72 and 0.90, respectively. Our novel score predicted mortality with AUROC 0.94. In the subset of patients with COVID-19, the stacked model predicted mortality with AUROC 0.90, whereas SOFA had AUROC of 0.85.
+DISCUSSION: Stacked regression allows a flexible, updatable, live-implementable, ethically defensible predictive analytics tool for decision support that begins with validated models and includes only novel information that improves prediction.
+CONCLUSION: We developed and validated an accurate in-hospital mortality prediction score in a live EHR for automatic and continuous calculation using a novel model that improved upon SOFA.},
+	author = {Sottile, Peter D and Albers, David and DeWitt, Peter E and Russell, Seth and Stroh, J N and Kao, David P and Adrian, Bonnie and Levine, Matthew E and Mooney, Ryan and Larchick, Lenny and Kutner, Jean S and Wynia, Matthew K and Glasheen, Jeffrey J and Bennett, Tellen D},
+	date-added = {2021-06-15 05:51:30 -0600},
+	date-modified = {2021-06-15 05:52:09 -0600},
+	doi = {10.1093/jamia/ocab100},
+	journal = {J Am Med Inform Assoc},
+	journal-full = {Journal of the American Medical Informatics Association : JAMIA},
+	keywords = {COVID-19; Crisis Triage; Machine Learning; Mortality Prediction},
+	month = {May},
+	pmc = {PMC8136054},
+	pmid = {33973011},
+	pst = {aheadofprint},
+	title = {Real-Time Electronic Health Record Mortality Prediction During the COVID-19 Pandemic: A Prospective Cohort Study},
+	year = {2021},
+	Bdsk-Url-1 = {https://doi.org/10.1093/jamia/ocab100}}
 
 @article{Kahkoska2021,
 	author = {Anna R. Kahkoska and Trine Julie Abrahamsen and G. Caleb Alexander and Tellen D. Bennett and Christopher G. Chute and Melissa A. Haendel and Klara R. Klein and Hemalkumar Mehta and Joshua D. Miller and Richard A. Moffitt and Til St{\"u}̈rmer and Kajsa Kvist and John B. Buse and the N3C Consortium},
@@ -164,24 +185,6 @@ METHODS: We describe a multistep process for the creation of "core domains" of r
 	volume = {21},
 	year = {2020},
 	Bdsk-Url-1 = {https://doi.org/10.1097/PCC.0000000000002455}}
-
-@article{Sottile2021,
-	abstract = {Background: The SARS-CoV-2 virus has infected millions of people, overwhelming critical care resources in some regions. Many plans for rationing critical care resources during crises are based on the Sequential Organ Failure Assessment (SOFA) score. The COVID-19 pandemic created an emergent need to develop and validate a novel electronic health record (EHR)-computable tool to predict mortality.
-Research Questions: To rapidly develop, validate, and implement a novel real-time mortality score for the COVID-19 pandemic that improves upon SOFA.
-Study Design and Methods: We conducted a prospective cohort study of a regional health system with 12 hospitals in Colorado between March 2020 and July 2020. All patients >14 years old hospitalized during the study period without a do not resuscitate order were included. Patients were stratified by the diagnosis of COVID-19. From this cohort, we developed and validated a model using stacked generalization to predict mortality using data widely available in the EHR by combining five previously validated scores and additional novel variables reported to be associated with COVID-19-specific mortality. We compared the area under the receiver operator curve (AUROC) for the new model to the SOFA score and the Charlson Comorbidity Index.
-Results: We prospectively analyzed 27,296 encounters, of which 1,358 (5.0%) were positive for SARS-CoV-2, 4,494 (16.5%) included intensive care unit (ICU)-level care, 1,480 (5.4%) included invasive mechanical ventilation, and 717 (2.6%) ended in death. The Charlson Comorbidity Index and SOFA scores predicted overall mortality with an AUROC of 0.72 and 0.90, respectively. Our novel score predicted overall mortality with AUROC 0.94. In the subset of patients with COVID-19, we predicted mortality with AUROC 0.90, whereas SOFA had AUROC of 0.85.
-Interpretation: We developed and validated an accurate, in-hospital mortality prediction score in a live EHR for automatic and continuous calculation using a novel model, that improved upon SOFA.
-Take Home Points: Study Question: Can we improve upon the SOFA score for real-time mortality prediction during the COVID-19 pandemic by leveraging electronic health record (EHR) data?Results: We rapidly developed and implemented a novel yet SOFA-anchored mortality model across 12 hospitals and conducted a prospective cohort study of 27,296 adult hospitalizations, 1,358 (5.0%) of which were positive for SARS-CoV-2. The Charlson Comorbidity Index and SOFA scores predicted all-cause mortality with AUROCs of 0.72 and 0.90, respectively. Our novel score predicted mortality with AUROC 0.94.Interpretation: A novel EHR-based mortality score can be rapidly implemented to better predict patient outcomes during an evolving pandemic.},
-	author = {Sottile, Peter D and Albers, David and DeWitt, Peter E and Russell, Seth and Stroh, J N and Kao, David P and Adrian, Bonnie and Levine, Matthew E and Mooney, Ryan and Larchick, Lenny and Kutner, Jean S and Wynia, Matthew K and Glasheen, Jeffrey J and Bennett, Tellen D},
-	date-added = {2021-03-10 03:52:47 -0700},
-	date-modified = {2021-05-12 05:22:26 -0600},
-	doi = {10.1101/2021.01.14.21249793},
-	journal = {J Am Med Inform Assoc},
-	pmc = {PMC7814847},
-	pmid = {33469601},
-	title = {Real-Time Electronic Health Record Mortality Prediction During the COVID-19 Pandemic: A Prospective Cohort Study},
-	year = {in press},
-	Bdsk-Url-1 = {https://doi.org/10.1101/2021.01.14.21249793}}
 
 @article{Bennett2021_n3c_cohort,
 	abstract = {Background: The majority of U.S. reports of COVID-19 clinical characteristics, disease course, and treatments are from single health systems or focused on one domain. Here we report the creation of the National COVID Cohort Collaborative (N3C), a centralized, harmonized, high-granularity electronic health record repository that is the largest, most representative U.S. cohort of COVID-19 cases and controls to date. This multi-center dataset supports robust evidence-based development of predictive and diagnostic tools and informs critical care and policy.

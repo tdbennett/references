@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Tell Bennett at 2023-12-01 08:43:22 -0700 
+%% Created for Tell Bennett at 2024-02-20 05:17:57 -0700 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -10,6 +10,151 @@
 @comment{jabref-meta: databaseType:bibtex;}
 
 
+
+@article{Wang:2023aa,
+	abstract = {OBJECTIVE: Computing phenotypes that provide high-fidelity, time-dependent characterizations and yield personalized interpretations is challenging, especially given the complexity of physiological and healthcare systems and clinical data quality. This paper develops a methodological pipeline to estimate unmeasured physiological parameters and produce high-fidelity, personalized phenotypes anchored to physiological mechanics from electronic health record (EHR).
+METHODS: A methodological phenotyping pipeline is developed that computes new phenotypes defined with unmeasurable computational biomarkers quantifying specific physiological properties in real time. Working within the inverse problem framework, this pipeline is applied to the glucose-insulin system for ICU patients using data assimilation to estimate an established mathematical physiological model with stochastic optimization. This produces physiological model parameter vectors of clinically unmeasured endocrine properties, here insulin secretion, clearance, and resistance, estimated for individual patient. These physiological parameter vectors are used as inputs to unsupervised machine learning methods to produce phenotypic labels and discrete physiological phenotypes. These phenotypes are inherently interpretable because they are based on parametric physiological descriptors. To establish potential clinical utility, the computed phenotypes are evaluated with external EHR data for consistency and reliability and with clinician face validation.
+RESULTS: The phenotype computation was performed on a cohort of 109 ICU patients who received no or short-acting insulin therapy, rendering continuous and discrete physiological phenotypes as specific computational biomarkers of unmeasured insulin secretion, clearance, and resistance on time windows of three days. Six, six, and five discrete phenotypes were found in the first, middle, and last three-day periods of ICU stays, respectively. Computed phenotypic labels were predictive with an average accuracy of 89%. External validation of discrete phenotypes showed coherence and consistency in clinically observable differences based on laboratory measurements and ICD 9/10 codes and clinical concordance from face validity. A particularly clinically impactful parameter, insulin secretion, had a concordance accuracy of 83%$\pm$27%.
+CONCLUSION: The new physiological phenotypes computed with individual patient ICU data and defined by estimates of mechanistic model parameters have high physiological fidelity, are continuous, time-specific, personalized, interpretable, and predictive. This methodology is generalizable to other clinical and physiological settings and opens the door for discovering deeper physiological information to personalize medical care.},
+	author = {Wang, Yanran and Stroh, J N and Hripcsak, George and Low Wang, Cecilia C and Bennett, Tellen D and Wrobel, Julia and Der Nigoghossian, Caroline and Mueller, Scott W and Claassen, Jan and Albers, D J},
+	date-added = {2024-02-20 05:15:10 -0700},
+	date-modified = {2024-02-20 05:15:10 -0700},
+	doi = {10.1016/j.jbi.2023.104547},
+	journal = {J Biomed Inform},
+	journal-full = {Journal of biomedical informatics},
+	keywords = {Data assimilation; Data mining; Electronic health record; Knowledge representation with machine learning; Phenotyping; Physiological modeling},
+	mesh = {Humans; Algorithms; Electronic Health Records; Reproducibility of Results; Phenotype; Biomarkers; Intensive Care Units},
+	month = {Dec},
+	pages = {104547},
+	pmc = {PMC10802138},
+	pmid = {37984547},
+	pst = {ppublish},
+	title = {A methodology of phenotyping ICU patients from EHR data: High-fidelity, personalized, and interpretable phenotypes estimation},
+	volume = {148},
+	year = {2023},
+	bdsk-url-1 = {https://doi.org/10.1016/j.jbi.2023.104547}}
+
+@article{Heneghan:2023aa,
+	abstract = {OBJECTIVE: Perform a scoping review of supervised machine learning in pediatric critical care to identify published applications, methodologies, and implementation frequency to inform best practices for the development, validation, and reporting of predictive models in pediatric critical care.
+DESIGN: Scoping review and expert opinion.
+SETTING: We queried CINAHL Plus with Full Text (EBSCO), Cochrane Library (Wiley), Embase (Elsevier), Ovid Medline, and PubMed for articles published between 2000 and 2022 related to machine learning concepts and pediatric critical illness. Articles were excluded if the majority of patients were adults or neonates, if unsupervised machine learning was the primary methodology, or if information related to the development, validation, and/or implementation of the model was not reported. Article selection and data extraction were performed using dual review in the Covidence tool, with discrepancies resolved by consensus.
+SUBJECTS: Articles reporting on the development, validation, or implementation of supervised machine learning models in the field of pediatric critical care medicine.
+INTERVENTIONS: None.
+MEASUREMENTS AND MAIN RESULTS: Of 5075 identified studies, 141 articles were included. Studies were primarily (57%) performed at a single site. The majority took place in the United States (70%). Most were retrospective observational cohort studies. More than three-quarters of the articles were published between 2018 and 2022. The most common algorithms included logistic regression and random forest. Predicted events were most commonly death, transfer to ICU, and sepsis. Only 14% of articles reported external validation, and only a single model was implemented at publication. Reporting of validation methods, performance assessments, and implementation varied widely. Follow-up with authors suggests that implementation remains uncommon after model publication.
+CONCLUSIONS: Publication of supervised machine learning models to address clinical challenges in pediatric critical care medicine has increased dramatically in the last 5 years. While these approaches have the potential to benefit children with critical illness, the literature demonstrates incomplete reporting, absence of external validation, and infrequent clinical implementation.},
+	author = {Heneghan, Julia A and Walker, Sarah B and Fawcett, Andrea and Bennett, Tellen D and Dziorny, Adam C and Sanchez-Pinto, L Nelson and Farris, Reid W D and Winter, Meredith C and Badke, Colleen and Martin, Blake and Brown, Stephanie R and McCrory, Michael C and Ness-Cochinwala, Manette and Rogerson, Colin and Baloglu, Orkun and Harwayne-Gidansky, Ilana and Hudkins, Matthew R and Kamaleswaran, Rishikesan and Gangadharan, Sandeep and Tripathi, Sandeep and Mendonca, Eneida A and Markovitz, Barry P and Mayampurath, Anoop and Spaeder, Michael C and {Pediatric Data Science and Analytics (PEDAL) subgroup of the Pediatric Acute Lung Injury and Sepsis Investigators (PALISI) Network}},
+	date-added = {2024-02-20 05:15:05 -0700},
+	date-modified = {2024-02-20 05:15:05 -0700},
+	doi = {10.1097/PCC.0000000000003425},
+	journal = {Pediatr Crit Care Med},
+	journal-full = {Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies},
+	month = {Dec},
+	pmid = {38059732},
+	pst = {aheadofprint},
+	title = {The Pediatric Data Science and Analytics Subgroup of the Pediatric Acute Lung Injury and Sepsis Investigators Network: Use of Supervised Machine Learning Applications in Pediatric Critical Care Medicine Research},
+	year = {2023},
+	bdsk-url-1 = {https://doi.org/10.1097/PCC.0000000000003425}}
+
+@article{DeWitt:2024aa,
+	abstract = {Data sharing is necessary to maximize the actionable knowledge generated from research data. Data challenges can encourage secondary analyses of datasets. Data challenges in biomedicine often rely on advanced cloud-based computing infrastructure and expensive industry partnerships. Examples include challenges that use Google Cloud virtual machines and the Sage Bionetworks Dream Challenges platform. Such robust infrastructures can be financially prohibitive for investigators without substantial resources. Given the potential to develop scientific and clinical knowledge and the NIH emphasis on data sharing and reuse, there is a need for inexpensive and computationally lightweight methods for data sharing and hosting data challenges. To fill that gap, we developed a workflow that allows for reproducible model training, testing, and evaluation. We leveraged public GitHub repositories, open-source computational languages, and Docker technology. In addition, we conducted a data challenge using the infrastructure we developed. In this manuscript, we report on the infrastructure, workflow, and data challenge results. The infrastructure and workflow are likely to be useful for data challenges and education.},
+	author = {DeWitt, Peter E and Rebull, Margaret A and Bennett, Tellen D},
+	date-added = {2024-02-20 05:15:00 -0700},
+	date-modified = {2024-02-20 05:15:00 -0700},
+	doi = {10.1038/s41597-023-02854-0},
+	journal = {Sci Data},
+	journal-full = {Scientific data},
+	month = {Jan},
+	number = {1},
+	pages = {8},
+	pmc = {PMC10762166},
+	pmid = {38167901},
+	pst = {epublish},
+	title = {Open source and reproducible and inexpensive infrastructure for data challenges and education},
+	volume = {11},
+	year = {2024},
+	bdsk-url-1 = {https://doi.org/10.1038/s41597-023-02854-0}}
+
+@article{Maddux:2024aa,
+	abstract = {OBJECTIVES: To characterize health-related quality of life (HRQL) and functional recovery trajectories and risk factors for prolonged impairments among critically ill children receiving greater than or equal to 3 days of invasive ventilation.
+DESIGN: Prospective cohort study.
+SETTING: Quaternary children's hospital PICU.
+PATIENTS: Children without a preexisting tracheostomy who received greater than or equal to 3 days of invasive ventilation, survived hospitalization, and completed greater than or equal to 1 postdischarge data collection.
+INTERVENTIONS: None.
+MEASUREMENTS AND MAIN RESULTS: We evaluated 144 children measuring HRQL using proxy-report Pediatric Quality of Life Inventory and functional status using the Functional Status Scale (FSS) reflecting preillness baseline, PICU and hospital discharge, and 1, 3, 6, and 12 months after hospital discharge. They had a median age of 5.3 years (interquartile range, 1.1-13.0 yr), 58 (40%) were female, 45 (31%) had a complex chronic condition, and 110 (76%) had normal preillness FSS scores. Respiratory failure etiologies included lung disease (n = 49; 34%), neurologic failure (n = 23; 16%), and septic shock (n = 22; 15%). At 1-month postdischarge, 68 of 122 (56%) reported worsened HRQL and 35 (29%) had a new functional impairment compared with preillness baseline. This improved at 3 months to 54 (46%) and 24 (20%), respectively, and remained stable through the remaining 9 months of follow-up. We used interaction forests to evaluate relative variable importance including pairwise interactions and found that therapy consultation within 3 days of intubation was associated with better HRQL recovery in older patients and those with better preillness physical HRQL. During the postdischarge year, 76 patients (53%) had an emergency department visit or hospitalization, and 62 (43%) newly received physical, occupational, or speech therapy.
+CONCLUSIONS: Impairments in HRQL and functional status as well as health resource use were common among children with acute respiratory failure. Early therapy consultation was a modifiable characteristic associated with shorter duration of worsened HRQL in older patients.},
+	author = {Maddux, Aline B and Miller, Kristen R and Sierra, Yamila L and Bennett, Tellen D and Watson, R Scott and Spear, Matthew and Pyle, Laura L and Mourani, Peter M},
+	date-added = {2024-02-20 05:14:52 -0700},
+	date-modified = {2024-02-20 05:14:52 -0700},
+	doi = {10.1097/CCM.0000000000006187},
+	journal = {Crit Care Med},
+	journal-full = {Critical care medicine},
+	month = {Jan},
+	pmid = {38193769},
+	pst = {aheadofprint},
+	title = {Recovery Trajectories in Children Requiring 3 or More Days of Invasive Ventilation},
+	year = {2024},
+	bdsk-url-1 = {https://doi.org/10.1097/CCM.0000000000006187}}
+
+@article{Schlapbach2024,
+	abstract = {IMPORTANCE: Sepsis is a leading cause of death among children worldwide. Current pediatric-specific criteria for sepsis were published in 2005 based on expert opinion. In 2016, the Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3) defined sepsis as life-threatening organ dysfunction caused by a dysregulated host response to infection, but it excluded children.
+OBJECTIVE: To update and evaluate criteria for sepsis and septic shock in children.
+EVIDENCE REVIEW: The Society of Critical Care Medicine (SCCM) convened a task force of 35 pediatric experts in critical care, emergency medicine, infectious diseases, general pediatrics, nursing, public health, and neonatology from 6 continents. Using evidence from an international survey, systematic review and meta-analysis, and a new organ dysfunction score developed based on more than 3 million electronic health record encounters from 10 sites on 4 continents, a modified Delphi consensus process was employed to develop criteria.
+FINDINGS: Based on survey data, most pediatric clinicians used sepsis to refer to infection with life-threatening organ dysfunction, which differed from prior pediatric sepsis criteria that used systemic inflammatory response syndrome (SIRS) criteria, which have poor predictive properties, and included the redundant term, severe sepsis. The SCCM task force recommends that sepsis in children be identified by a Phoenix Sepsis Score of at least 2 points in children with suspected infection, which indicates potentially life-threatening dysfunction of the respiratory, cardiovascular, coagulation, and/or neurological systems. Children with a Phoenix Sepsis Score of at least 2 points had in-hospital mortality of 7.1% in higher-resource settings and 28.5% in lower-resource settings, more than 8 times that of children with suspected infection not meeting these criteria. Mortality was higher in children who had organ dysfunction in at least 1 of 4-respiratory, cardiovascular, coagulation, and/or neurological-organ systems that was not the primary site of infection. Septic shock was defined as children with sepsis who had cardiovascular dysfunction, indicated by at least 1 cardiovascular point in the Phoenix Sepsis Score, which included severe hypotension for age, blood lactate exceeding 5 mmol/L, or need for vasoactive medication. Children with septic shock had an in-hospital mortality rate of 10.8% and 33.5% in higher- and lower-resource settings, respectively.
+CONCLUSIONS AND RELEVANCE: The Phoenix sepsis criteria for sepsis and septic shock in children were derived and validated by the international SCCM Pediatric Sepsis Definition Task Force using a large international database and survey, systematic review and meta-analysis, and modified Delphi consensus approach. A Phoenix Sepsis Score of at least 2 identified potentially life-threatening organ dysfunction in children younger than 18 years with infection, and its use has the potential to improve clinical care, epidemiological assessment, and research in pediatric sepsis and septic shock around the world.},
+	author = {Schlapbach, Luregn J and Watson, R Scott and Sorce, Lauren R and Argent, Andrew C and Menon, Kusum and Hall, Mark W and Akech, Samuel and Albers, David J and Alpern, Elizabeth R and Balamuth, Fran and Bembea, Melania and Biban, Paolo and Carrol, Enitan D and Chiotos, Kathleen and Chisti, Mohammod Jobayer and DeWitt, Peter E and Evans, Idris and Flauzino de Oliveira, Cl{\'a}udio and Horvat, Christopher M and Inwald, David and Ishimine, Paul and Jaramillo-Bustamante, Juan Camilo and Levin, Michael and Lodha, Rakesh and Martin, Blake and Nadel, Simon and Nakagawa, Satoshi and Peters, Mark J and Randolph, Adrienne G and Ranjit, Suchitra and Rebull, Margaret N and Russell, Seth and Scott, Halden F and de Souza, Daniela Carla and Tissieres, Pierre and Weiss, Scott L and Wiens, Matthew O and Wynn, James L and Kissoon, Niranjan and Zimmerman, Jerry J and Sanchez-Pinto, L Nelson and Bennett, Tellen D and {Society of Critical Care Medicine Pediatric Sepsis Definition Task Force}},
+	date-added = {2024-02-20 05:14:48 -0700},
+	date-modified = {2024-02-20 05:17:12 -0700},
+	doi = {10.1001/jama.2024.0179},
+	journal = {JAMA},
+	journal-full = {JAMA},
+	month = {Jan},
+	pmid = {38245889},
+	pst = {aheadofprint},
+	title = {International Consensus Criteria for Pediatric Sepsis and Septic Shock},
+	year = {2024},
+	bdsk-url-1 = {https://doi.org/10.1001/jama.2024.0179}}
+
+@article{Sanchez-Pinto2024,
+	abstract = {IMPORTANCE: The Society of Critical Care Medicine Pediatric Sepsis Definition Task Force sought to develop and validate new clinical criteria for pediatric sepsis and septic shock using measures of organ dysfunction through a data-driven approach.
+OBJECTIVE: To derive and validate novel criteria for pediatric sepsis and septic shock across differently resourced settings.
+DESIGN, SETTING, AND PARTICIPANTS: Multicenter, international, retrospective cohort study in 10 health systems in the US, Colombia, Bangladesh, China, and Kenya, 3 of which were used as external validation sites. Data were collected from emergency and inpatient encounters for children (aged <18 years) from 2010 to 2019: 3 049 699 in the development (including derivation and internal validation) set and 581 317 in the external validation set.
+EXPOSURE: Stacked regression models to predict mortality in children with suspected infection were derived and validated using the best-performing organ dysfunction subscores from 8 existing scores. The final model was then translated into an integer-based score used to establish binary criteria for sepsis and septic shock.
+MAIN OUTCOMES AND MEASURES: The primary outcome for all analyses was in-hospital mortality. Model- and integer-based score performance measures included the area under the precision recall curve (AUPRC; primary) and area under the receiver operating characteristic curve (AUROC; secondary). For binary criteria, primary performance measures were positive predictive value and sensitivity.
+RESULTS: Among the 172 984 children with suspected infection in the first 24 hours (development set; 1.2% mortality), a 4-organ-system model performed best. The integer version of that model, the Phoenix Sepsis Score, had AUPRCs of 0.23 to 0.38 (95% CI range, 0.20-0.39) and AUROCs of 0.71 to 0.92 (95% CI range, 0.70-0.92) to predict mortality in the validation sets. Using a Phoenix Sepsis Score of 2 points or higher in children with suspected infection as criteria for sepsis and sepsis plus 1 or more cardiovascular point as criteria for septic shock resulted in a higher positive predictive value and higher or similar sensitivity compared with the 2005 International Pediatric Sepsis Consensus Conference (IPSCC) criteria across differently resourced settings.
+CONCLUSIONS AND RELEVANCE: The novel Phoenix sepsis criteria, which were derived and validated using data from higher- and lower-resource settings, had improved performance for the diagnosis of pediatric sepsis and septic shock compared with the existing IPSCC criteria.},
+	author = {Sanchez-Pinto, L Nelson and Bennett, Tellen D and DeWitt, Peter E and Russell, Seth and Rebull, Margaret N and Martin, Blake and Akech, Samuel and Albers, David J and Alpern, Elizabeth R and Balamuth, Fran and Bembea, Melania and Chisti, Mohammod Jobayer and Evans, Idris and Horvat, Christopher M and Jaramillo-Bustamante, Juan Camilo and Kissoon, Niranjan and Menon, Kusum and Scott, Halden F and Weiss, Scott L and Wiens, Matthew O and Zimmerman, Jerry J and Argent, Andrew C and Sorce, Lauren R and Schlapbach, Luregn J and Watson, R Scott and {Society of Critical Care Medicine Pediatric Sepsis Definition Task Force} and Biban, Paolo and Carrol, Enitan and Chiotos, Kathleen and Flauzino De Oliveira, Claudio and Hall, Mark W and Inwald, David and Ishimine, Paul and Levin, Michael and Lodha, Rakesh and Nadel, Simon and Nakagawa, Satoshi and Peters, Mark J and Randolph, Adrienne G and Ranjit, Suchitra and Souza, Daniela Carla and Tissieres, Pierre and Wynn, James L},
+	date-added = {2024-02-20 05:14:45 -0700},
+	date-modified = {2024-02-20 05:17:02 -0700},
+	doi = {10.1001/jama.2024.0196},
+	journal = {JAMA},
+	journal-full = {JAMA},
+	month = {Jan},
+	pmid = {38245897},
+	pst = {aheadofprint},
+	title = {Development and Validation of the Phoenix Criteria for Pediatric Sepsis and Septic Shock},
+	year = {2024},
+	bdsk-url-1 = {https://doi.org/10.1001/jama.2024.0196}}
+
+@article{Logan:2024aa,
+	abstract = {OBJECTIVES: To develop a desirability of outcome ranking (DOOR) scale for use in children with septic shock and determine its correlation with a decrease in 3-month postadmission health-related quality of life (HRQL) or death.
+DESIGN: Secondary analysis of the Life After Pediatric Sepsis Evaluation prospective study.
+SETTING: Twelve U.S. PICUs, 2013-2017.
+PATIENTS: Children (1 mo-18 yr) with septic shock.
+INTERVENTIONS: None.
+MEASUREMENTS AND MAIN RESULTS: We applied a 7-point pediatric critical care (PCC) DOOR scale: 7: death; 6: extracorporeal life support; 5: supported by life-sustaining therapies (continuous renal replacement therapy, vasoactive, or invasive ventilation); 4: hospitalized with or 3: without organ dysfunction; 2: discharged with or 1: without new morbidity to patients by assigning the highest applicable score on specific days post-PICU admission. We analyzed Spearman rank-order correlations (95% CIs) between proximal outcomes (PCC-DOOR scale on days 7, 14, and 21, ventilator-free days, cumulative 28-day Pediatric Logistic Organ Dysfunction-2 (PELOD-2) scores, and PICU-free days) and 3-month decrease in HRQL or death. HRQL was measured by Pediatric Quality of Life Inventory 4.0 or Functional Status II-R for patients with developmental delay. Patients who died were assigned the worst possible HRQL score. PCC-DOOR scores were applied to 385 patients, median age 6 years (interquartile range 2, 13) and 177 (46%) with a complex chronic condition(s). Three-month outcomes were available for 245 patients (64%) and 42 patients (17%) died. PCC-DOOR scale on days 7, 14, and 21 demonstrated fair correlation with the primary outcome (-0.42 [-0.52, -0.31], -0.47 [-0.56, -0.36], and -0.52 [-0.61, -0.42]), similar to the correlations for cumulative 28-day PELOD-2 scores (-0.51 [-0.59, -0.41]), ventilator-free days (0.43 [0.32, 0.53]), and PICU-free days (0.46 [0.35, 0.55]).
+CONCLUSIONS: The PCC-DOOR scale is a feasible, practical outcome for pediatric sepsis trials and demonstrates fair correlation with decrease in HRQL or death at 3 months.},
+	author = {Logan, Grace E and Banks, Russell K and Reeder, Ron and Miller, Kristen and Mourani, Peter M and Bennett, Tellen D and Bourque, Stephanie L and Meert, Kathleen L and Zimmerman, Jerry and Maddux, Aline B},
+	date-added = {2024-02-20 05:14:27 -0700},
+	date-modified = {2024-02-20 05:14:27 -0700},
+	doi = {10.1097/PCC.0000000000003470},
+	journal = {Pediatr Crit Care Med},
+	journal-full = {Pediatric critical care medicine : a journal of the Society of Critical Care Medicine and the World Federation of Pediatric Intensive and Critical Care Societies},
+	month = {Feb},
+	pmid = {38353586},
+	pst = {aheadofprint},
+	title = {Association of an In-Hospital Desirability of Outcomes Ranking Scale With Postdischarge Health-Related Quality of Life: A Secondary Analysis of the Life After Pediatric Sepsis Evaluation},
+	year = {2024},
+	bdsk-url-1 = {https://doi.org/10.1097/PCC.0000000000003470}}
 
 @article{Wang2023,
 	abstract = {OBJECTIVE: Computing phenotypes that provide high-fidelity, time-dependent characterizations and yield personalized interpretations is challenging, especially given the complexity of physiological and healthcare systems and clinical data quality. This paper develops a methodological pipeline to estimate unmeasured physiological parameters and produce high-fidelity, personalized phenotypes anchored to physiological mechanics from electronic health record (EHR).
